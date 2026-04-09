@@ -12,7 +12,7 @@
   body {
     min-height: 100vh;
     color: #0f172a;
-    background: #0b1020;
+    background: linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
