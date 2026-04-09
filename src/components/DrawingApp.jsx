@@ -522,8 +522,9 @@ function DrawingApp() {
   }, [selectedTool])
 
   return (
-    <main className="relative h-screen overflow-hidden bg-slate-50 p-4 sm:p-5">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.18),transparent_38%),radial-gradient(circle_at_80%_0%,rgba(16,185,129,0.14),transparent_36%),linear-gradient(180deg,rgba(255,255,255,0.8),rgba(241,245,249,0.95))]" />
+    <main className="relative h-screen overflow-hidden bg-[#0b1020] p-4 sm:p-5">
+      <div className="pointer-events-none absolute inset-0 bg-[url('/1696593.jpg')] bg-cover bg-center opacity-20" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(74,152,247,0.30),transparent_35%),radial-gradient(circle_at_80%_0%,rgba(16,185,129,0.24),transparent_34%),linear-gradient(180deg,rgba(11,16,32,0.42),rgba(11,16,32,0.92))]" />
 
       <div className="relative mx-auto flex h-full w-full max-w-[1180px] min-h-0 flex-col gap-4 lg:flex-row">
         <ToolsBoard
